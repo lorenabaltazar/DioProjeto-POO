@@ -26,28 +26,28 @@ public class Main {
         bootcamp.getConteudos().add(curso2);
         bootcamp.getConteudos().add(mentoria1);
 
-        Dev devMel = new Dev();
-        devMel.setNome("Melissa");
-        devMel.inscreverBootcamp(bootcamp);
-        System.out.println("Conteúdos inscritos de " + devMel.getNome() + ": " + devMel.getConteudosInscritos());
-        devMel.progredir();
+        Dev devLor = new Dev();
+        devLor.setNome("Lorena");
+        devLor.inscreverBootcamp(bootcamp);
+        System.out.println("Conteúdos inscritos de " + devLor.getNome() + ": " + devLor.getConteudosInscritos());
+        devLor.progredir();
         System.out.println(" ");
-        System.out.println("Conteúdos inscritos de " + devMel.getNome() + ": " + devMel.getConteudosInscritos());
-        System.out.println("Conteúdos concluídos de " + devMel.getNome() + ": " + devMel.getConteudosConcluidos());
-        System.out.println("XP: " + devMel.calcularTotalXp());
+        System.out.println("Conteúdos inscritos de " + devLor.getNome() + ": " + devLor.getConteudosInscritos());
+        System.out.println("Conteúdos concluídos de " + devLor.getNome() + ": " + devLor.getConteudosConcluidos());
+        System.out.println("XP: " + devLor.calcularTotalXp());
 
         System.out.println(" ");
 
-        Dev devBergson = new Dev();
-        devBergson.setNome("Bergson");
-        devBergson.inscreverBootcamp(bootcamp);
-        System.out.println("Conteúdos inscritos de " + devBergson.getNome() + ": " + devBergson.getConteudosInscritos());
-        devBergson.progredir();
-        devBergson.progredir();
+        Dev devJulio = new Dev();
+        devJulio.setNome("Julio");
+        devJulio.inscreverBootcamp(bootcamp);
+        System.out.println("Conteúdos inscritos de " + devJulio.getNome() + ": " + devJulio.getConteudosInscritos());
+        devJulio.progredir();
+        devJulio.progredir();
         System.out.println(" ");
-        System.out.println("Conteúdos inscritos de " + devBergson.getNome() + ": " + devBergson.getConteudosInscritos());
-        System.out.println("Conteúdos concluídos de " + devBergson.getNome() + ": " + devBergson.getConteudosConcluidos());
-        System.out.println("XP: " + devBergson.calcularTotalXp());
+        System.out.println("Conteúdos inscritos de " + devJulio.getNome() + ": " + devJulio.getConteudosInscritos());
+        System.out.println("Conteúdos concluídos de " + devJulio.getNome() + ": " + devJulio.getConteudosConcluidos());
+        System.out.println("XP: " + devJulio.calcularTotalXp());
 
     }
     }

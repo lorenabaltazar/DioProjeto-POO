@@ -1,6 +1,6 @@
 import java.time.LocalDate;
 
-public class Mentoria extends Conteudo{
+public class Mentoria extends Conteudo {
     private LocalDate data;
 
     @Override

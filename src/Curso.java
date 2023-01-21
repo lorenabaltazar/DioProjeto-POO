@@ -1,4 +1,4 @@
-public class Curso extends Conteudo{
+public class Curso extends Conteudo {
     private int cargaHoraria;
 
     @Override
